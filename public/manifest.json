@@ -1,9 +1,12 @@
 {
   "name": "Castbox Chrome Extension",
   "description": "Changing the appearance of the \"Subscribed\" page and making it more similar to the \"Library\" page of the mobile version",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "manifest_version": 3,
-  "action": {},
+  "action": {
+	"default_popup": "index.html",
+    "default_title": "Open the player"
+  },
   "permissions": ["activeTab", "scripting", "tabs"],
   "host_permissions": ["https://castbox.fm/*"],
   "background": {
